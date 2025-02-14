@@ -66,7 +66,7 @@ function drawAtomPhysicsJs(from, atom, context) {
 
     var radius = atom.element == 'H' ? 4 : 8;
     var mass = atom.element == 'H' ? 3 : 1;
-    var color = atom.element == 'H' ? 0x00FF00 : 0x5555FF;
+    var color = atom.element == 'H' ? 0x888888 : 0x5555FF;
 
     if (atom.primaryChain) {
         context.carbon++;
